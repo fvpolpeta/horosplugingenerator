@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99E363D320719A5E00822EAF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E363D220719A5E00822EAF /* Cocoa.framework */; };
+		99E363D520719A6600822EAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E363D420719A6600822EAF /* Foundation.framework */; };
+		99E363D720719AF300822EAF /* Horos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E363D620719AF300822EAF /* Horos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		99E363DA20719C4400822EAF /* MyFirstHorosPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E363D920719C4400822EAF /* MyFirstHorosPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99E363C820719A0200822EAF /* MyFirstHorosPlugin.horosplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstHorosPlugin.horosplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E363CB20719A0200822EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E363D220719A5E00822EAF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		99E363D420719A6600822EAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99E363D620719AF300822EAF /* Horos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Horos.framework; path = ../../../../../Applications/Horos.app/Contents/Frameworks/Horos.framework; sourceTree = "<group>"; };
+		99E363D820719C4400822EAF /* MyFirstHorosPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstHorosPlugin.h; sourceTree = "<group>"; };
+		99E363D920719C4400822EAF /* MyFirstHorosPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstHorosPlugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99E363C520719A0200822EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E363D720719AF300822EAF /* Horos.framework in Frameworks */,
+				99E363D520719A6600822EAF /* Foundation.framework in Frameworks */,
+				99E363D320719A5E00822EAF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99E363BF20719A0200822EAF = {
+			isa = PBXGroup;
+			children = (
+				99E363CA20719A0200822EAF /* MyFirstHorosPlugin */,
+				99E363C920719A0200822EAF /* Products */,
+				99E363D120719A5E00822EAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99E363C920719A0200822EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99E363C820719A0200822EAF /* MyFirstHorosPlugin.horosplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99E363CA20719A0200822EAF /* MyFirstHorosPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				99E363CB20719A0200822EAF /* Info.plist */,
+				99E363D820719C4400822EAF /* MyFirstHorosPlugin.h */,
+				99E363D920719C4400822EAF /* MyFirstHorosPlugin.m */,
+			);
+			path = MyFirstHorosPlugin;
+			sourceTree = "<group>";
+		};
+		99E363D120719A5E00822EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E363D620719AF300822EAF /* Horos.framework */,
+				99E363D420719A6600822EAF /* Foundation.framework */,
+				99E363D220719A5E00822EAF /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99E363C720719A0200822EAF /* MyFirstHorosPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E363CE20719A0200822EAF /* Build configuration list for PBXNativeTarget "MyFirstHorosPlugin" */;
+			buildPhases = (
+				99E363C420719A0200822EAF /* Sources */,
+				99E363C520719A0200822EAF /* Frameworks */,
+				99E363C620719A0200822EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFirstHorosPlugin;
+			productName = MyFirstHorosPlugin;
+			productReference = 99E363C820719A0200822EAF /* MyFirstHorosPlugin.horosplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99E363C020719A0200822EAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Horos Project";
+				TargetAttributes = {
+					99E363C720719A0200822EAF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 99E363C320719A0200822EAF /* Build configuration list for PBXProject "MyFirstHorosPlugin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99E363BF20719A0200822EAF;
+			productRefGroup = 99E363C920719A0200822EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99E363C720719A0200822EAF /* MyFirstHorosPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99E363C620719A0200822EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99E363C420719A0200822EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E363DA20719C4400822EAF /* MyFirstHorosPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		99E363CC20719A0200822EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		99E363CD20719A0200822EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		99E363CF20719A0200822EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WGC24S6NKV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Applications/Horos.app/Contents/Frameworks/\n/Applications/Horos.app/Contents/Frameworks/\n",
+				);
+				INFOPLIST_FILE = MyFirstHorosPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.horosproject.MyFirstHorosPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = horosplugin;
+			};
+			name = Debug;
+		};
+		99E363D020719A0200822EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WGC24S6NKV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Applications/Horos.app/Contents/Frameworks/\n/Applications/Horos.app/Contents/Frameworks/\n",
+				);
+				INFOPLIST_FILE = MyFirstHorosPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.horosproject.MyFirstHorosPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = horosplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99E363C320719A0200822EAF /* Build configuration list for PBXProject "MyFirstHorosPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E363CC20719A0200822EAF /* Debug */,
+				99E363CD20719A0200822EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E363CE20719A0200822EAF /* Build configuration list for PBXNativeTarget "MyFirstHorosPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E363CF20719A0200822EAF /* Debug */,
+				99E363D020719A0200822EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99E363C020719A0200822EAF /* Project object */;
+}
